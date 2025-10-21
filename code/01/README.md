@@ -23,4 +23,8 @@ Esimeses loengus tutvusime JavaScriptiga, tutvusime muutujatega ja nende deklare
   - Aritmeetilised operatorid (+,-,/,*)
   - Määramisoperaatorid (=,*=,+=, -=)
 - Võrdlusoperaatorid (==, ===, >, <, !==, !=== )
+<<<<<<< HEAD
   - Loogilised operaatorid (AND, OR, NOT - &&, ||, !)
+=======
+  - Loogilised operaatorid (AND, OR, NOT - &&, ||, !)
+>>>>>>> c9a2ea244cd9069cb3e266894146c9df2ca8b892
