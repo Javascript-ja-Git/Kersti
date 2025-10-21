@@ -112,7 +112,7 @@ alert(typeof age);
 */
 
 //Lihtne kalkulaator
-
+/*
 const number1 = Number(prompt("Sisesta esimene arv"));
 const number2 = Number(prompt("Sisesta teine arv"));
 
@@ -135,4 +135,26 @@ else if(operator ==="/"){
 
 else {
     alert("Seda funktsiooni kalkulaator veel ei toeta");
+}
+    */
+
+//Tsüklid"
+
+//const count = Number(prompt("Sisesta korduste arv"));
+
+/*const count = 11;
+
+for (let index = 1; index < count; index = index + 1) {
+    console.log("1 *", index, "=", 1 * index);   
+}
+*/
+
+//Korrutustabel
+
+const count = 11;
+
+for (let i = 1; i < count; i = i + 1){
+    for (let j = 1; j < count; j = j + 1){
+        console.log(i + "*" + j +"=" + i * j);
+    }
 }
