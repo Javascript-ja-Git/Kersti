@@ -149,7 +149,7 @@ for (let index = 1; index < count; index = index + 1) {
 }
 */
 
-//Korrutustabel
+/*Korrutustabel
 
 const count = 11;
 
@@ -157,4 +157,27 @@ for (let i = 1; i < count; i = i + 1){
     for (let j = 1; j < count; j = j + 1){
         console.log(i + "*" + j +"=" + i * j);
     }
+}
+
+/*const password = `1234`;
+
+const password = prompt(`Palun sisesta parool`);
+
+if(password === `1234`) {
+    alert (`Parool on õige, tere tulemast!`);   
+} else {
+    alert (`Vale parool`);
+} */
+
+
+const password = `1234`;
+//if (something)
+if (password = `1234`) {
+    alert (`Something`);
+} else {
+    alert (`Not Something`);
+}
+
+for (let i = 1; i < 6; i ++) {
+    console.log (i);
 }
