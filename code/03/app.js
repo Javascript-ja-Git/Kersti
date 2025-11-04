@@ -133,10 +133,10 @@ console.log (add(2, 3));
 console.log (add(5, 3));
 console.log (add(200, 3));*/
 
-function greeting(name) {
+/*function greeting(name) {
     const message = `Tere,` + name;
     return message;
-}
+}*/
 
 //console.log(greeting (`Kersti`)); // -> `Tere, Kersti`
 // Küsi kasutajalt nimi ja kasutades funktsiooni, kuva tervitus kasutajale
@@ -173,7 +173,7 @@ console.log(triangleArea(-8, 4));
 console.log(triangleArea(8, -4));
 */
 
-function greeting(name) {
+/*function greeting(name) {
     const message = `Tere,` + name;
     console.log(message);
     return;
@@ -181,4 +181,50 @@ function greeting(name) {
 
 const result = greeting(`Kersti`);
 
-console.log(result);
+console.log(result);*/
+
+
+// - Neljas loeng -
+
+/*for (let i = 0; i < 10; i = i + 2) {
+    console.log(i);
+}*/
+
+/*let i = 0;
+
+while (i < 10) {
+    console.log(i);
+    i = i + 2;
+}
+
+let i = 0;
+
+while (i < 10) {
+    i = i + 2;
+    console.log(i);
+    
+}*/
+
+/*let i = 0;
+
+do {
+    console.log(i);
+    i = i + 2;
+} while(i < 10);*/
+
+function divide(a, b) {
+    if (b === 0) {
+        return `Nulliga ei saa jagada`;
+    }
+    const result = a / b;
+    return result;
+}
+
+// const result = divide(4, 2);
+
+console.log(divide(4, 2));
+console.log(divide(4, 0));
+console.log(divide(10, 0));
+console.log(divide(4, 3));
+console.log(divide(83434, 3432));
+
