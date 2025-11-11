@@ -120,7 +120,7 @@ console.log(sales[randomNumber]);*/
     return randomNumber
 }*/
 
-function dice(number) {
+/*function dice(number) {
     const randomNumber = Math.ceil(Math.random() * number);
     return randomNumber
 }
@@ -130,8 +130,30 @@ function dice(number) {
 
 alert(dice(maxNumber));*/
 
-const names = [`Jaan`, `Juta`, `Kalle`, `Malle`, `Juhan`, `Tiina`];
+/*const names = [`Jaan`, `Juta`, `Kalle`, `Malle`, `Juhan`, `Tiina`];
 
 const randomNumber = dice(names.length);
 
-console.log(names[randomNumber - 1]);
+console.log(names[randomNumber - 1]);*/
+
+
+/*const names = [`Kati`, `Mati`, `Mari`, `Jüri`];
+
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}*/
+
+
+function logElements(array) {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+    return array.length; 
+}
+
+const names = [`Kati`, `Mati`, `Mari`, `Jüri`];
+const numbers = [1, 2, 6, 7, 5, 0];
+
+logElements(names);
+const result = logElements(numbers);
+console.log(result);
